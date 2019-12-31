@@ -32,7 +32,7 @@ button {
     border-radius: 5%;
     margin-bottom: 5%;
     color: white;
-    font-size: 6vw;
+    font-size: 5vw;
     border: solid 0.5px white;
     background: transparent;
     animation-name: button;
@@ -57,19 +57,19 @@ button {
     border: none;
 }
 100% {
-    border: none;
+border: none;
 }
 }
 
 h1 {
-    font-size: 13vw;
+    font-size: 10vw;
 }
 
 #name {
     background: -webkit-linear-gradient(rgb(226, 77, 77), rgb(150, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   font-size: 13vw;
+   font-size: 10vw;
 }
 
 h2 {
@@ -81,7 +81,7 @@ h2 {
     h1 {font-size: 10vw;}
     h2 {font-size: 5vw;}
     #name {font-size: 10vw;}
-    button {font-size: 7vh;}
+    button {font-size: 3vw;}
 }
 
 section {
