@@ -110,6 +110,7 @@ section {
     justify-content: center;
     box-shadow: 1px 1px 1px 2px rgb(204, 145, 145);
     border-radius: 10%;
+    padding: 1rem;
 }
 
 p {
