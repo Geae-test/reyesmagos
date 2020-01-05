@@ -2,17 +2,40 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        
         <link rel="stylesheet" href="styles.css">
+        
         <title>¡Los Reyes Magos han venido!</title>
     </head>
 
     <body>
-        <header> <div class="header"><h1>Hola, <span id="name">Rosa</span>.</h1>
-            <h2>Sus Majestades los Reyes Magos han dejado un regalo para ti.</h2></div>
-            <a href="#intro"><button>Descubre qué...</button></a>
+        <header> <div class="header"><h1>Hola, <span id="name">mamá y papá</span>.</h1>
+            <h2>Sus Majestades los Reyes Magos han dejado regalos para vosotros.</h2></div>
+            <a href="#intro"><button>Descubrid qué...</button></a>
        </header>
 
-        <section id="intro">Section class</section>
+        <section id="intro">
+            <div class="card"><h2>¡Primer regalo!</h2>
+            <p class="content">¿Queréis vuestro primer regalo?</p>
+            <p>¡Pedídselo a Felipe!</p><br>
+            <p><a href="#second">Cuando lo tengáis, haced clic aquí para continuar.</a></p></div>
+        </section>
 
+        <section id="second">
+            <div class="card"><h2>¡Segundo regalo!</h2>
+            <p class="content">¿Queréis vuestro segundo regalo?</p>
+            <p>¡Pedídselo a Soraya!</p><br>
+            <p><a href="#third">Cuando lo tengáis, haced clic aquí para continuar.</a></p>
+            </div>
+        </section>
+
+        <section id="third">
+            <div class="card"><h2>¡Último regalo!</h2>
+            <p class="content">¿Queréis vuestro último regalo?</p>
+            <p>Esto llega a su fin...</p><br>
+            <p><a href="#">¡O no!</a></p>
+            </div>
+        </section>
     </body>
 </html>
