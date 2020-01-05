@@ -26,6 +26,25 @@ header {
     margin: auto;
 }
 
+h1 {
+    font-size: 9vw;
+}
+
+#name {
+    background: -webkit-linear-gradient(rgb(226, 77, 77), rgb(150, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   font-size: 10vw;
+}
+
+#name:active {
+    border-bottom: dotted 20px rgb(150, 0, 0);
+}
+
+h2 {
+    font-size: 9vw;
+}
+
 button {
     width: 60vw;
     height: 10vh;
@@ -37,7 +56,7 @@ button {
     background: transparent;
     animation-name: button;
     animation-duration: 1s;
-    animation-delay: 5s;
+    animation-delay: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -61,27 +80,12 @@ border: none;
 }
 }
 
-h1 {
-    font-size: 10vw;
-}
-
-#name {
-    background: -webkit-linear-gradient(rgb(226, 77, 77), rgb(150, 0, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   font-size: 10vw;
-}
-
-h2 {
-    font-size: 9vw;
-}
-
 @media (min-width: 800px) {
     .header {width: 80%;}
-    h1 {font-size: 10vw;}
+    h1 {font-size: 8vw;}
     h2 {font-size: 5vw;}
-    #name {font-size: 10vw;}
-    button {font-size: 3vw;}
+    #name {font-size: 8vw;}
+    button {font-size: 4vw;}
 }
 
 section {
@@ -92,10 +96,34 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin: auto;
-    padding: 10rem;
+    padding: 5rem;
     text-align: center;
 }
 
+.card {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 2px rgb(204, 145, 145);
+    border-radius: 10%;
+}
+
+p {
+    font-size: 3vw;
+}
+
+p a {
+    text-decoration: none;
+    font-size: 3vw;
+    color: white;
+    border-bottom: dotted 3px rgb(204, 145, 145);
+    text-shadow: 2px 2px 2px 15px black;
+}
+
+p a:focus {
+    color: white;
+}
