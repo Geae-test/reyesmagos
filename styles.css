@@ -131,6 +131,11 @@ section {
     background-repeat: no-repeat;
     justify-content: center;
     color: rgb(67, 94, 25);
+    
+}
+
+#last-section h2 {
+    padding-bottom: 5vh;
 }
 
 #arrow {
