@@ -113,6 +113,47 @@ section {
     padding: 1rem;
 }
 
+#second {
+    background: url(https://images.unsplash.com/photo-1482517967863-00e15c9b44be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#third {
+    background: url(https://images.unsplash.com/photo-1542178036-09c8920d2138?ixlib=rb-1.2.1&auto=format&fit=crop&w=3750&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fourth {
+    background: url(https://images.unsplash.com/photo-1508161250369-a7ecbdfb67fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    color: rgb(67, 94, 25);
+}
+
+#arrow {
+    border: none;
+    position: relative;
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes arrow {
+From {
+    color: black;
+    font-size: 4vw;
+}
+
+To {
+    color: white;
+}
+}
+
 p {
     font-size: 3vw;
 }
