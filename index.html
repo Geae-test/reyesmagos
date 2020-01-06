@@ -5,6 +5,12 @@
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         
         <link rel="stylesheet" href="styles.css">
+
+        <script type="text/javascript" src="//char.oddcast.com/engines/html5/vs/VideoOverlayEngine_R.js"></script>
+                <script language="JavaScript" type="text/javascript" src="//host-d.oddcast.com/api/video/eys/embedVideo.php"></script>
+                <script language="JavaScript" type="text/javascript" src="//host-d.oddcast.com/elfyourself2019/embed/vhost_embed_functions_elf_v2.php?acc=14490&js=1"></script>
+                <script language="JavaScript" type="text/javascript">AC_VHost_Embed(14490,382,680,"",1,1, 55082, 0,1,0,"4e31df987cc4dc9de5ce5d67223a05d9",0,"","","",1381,299, 74267126, "https://", "host-d.oddcast.com");</script>
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
         
         <title>¡Los Reyes Magos han venido!</title>
     </head>
@@ -17,24 +23,35 @@
 
         <section id="intro">
             <div class="card"><h2>¡Primer regalo!</h2>
-            <p class="content">¿Queréis vuestro primer regalo?</p>
-            <p>¡Pedídselo a Felipe!</p><br>
-            <p><a href="#second">Cuando lo tengáis, haced clic aquí para continuar.</a></p></div>
+            <p class="content">¿Queréis vuestro primer regalo?<br>
+            ¡Pedídselo a Felipe!<br/><br>
+            <a href="#second">Cuando lo tengáis, haced clic aquí para continuar.</a></p>
+            </div>
         </section>
 
         <section id="second">
             <div class="card"><h2>¡Segundo regalo!</h2>
-            <p class="content">¿Queréis vuestro segundo regalo?</p>
-            <p>¡Pedídselo a Soraya!</p><br>
-            <p><a href="#third">Cuando lo tengáis, haced clic aquí para continuar.</a></p>
+            <p class="content">¿Queréis vuestro segundo regalo?<br>
+            ¡Pedídselo a Soraya!<br><br>
+            <a href="#third">Cuando lo tengáis, haced clic aquí para continuar.</a></p>
             </div>
         </section>
 
         <section id="third">
             <div class="card"><h2>¡Último regalo!</h2>
-            <p class="content">¿Queréis vuestro último regalo?</p>
-            <p>Esto llega a su fin...</p><br>
-            <p><a href="#">¡O no!</a></p>
+            <p class="content">Esto llega a su fin... ¿o no? <br>
+            <a href="vale.jpg" target="_blank">¿Qué será, será? ¡Pulsad aquí!</a><br><br>
+            <a id="arrow" href="#fourth">▼</a></p>
+            </div>
+        </section>
+
+        <section id="fourth">
+            <h2>Y ahora, ¡un bailoteo final!<br>
+            Dadle al play.</h2>
+            <div class="video">
+                <video controls>
+                    <source src="elf.mp4" type="video/mp4">
+                  </video> 
             </div>
         </section>
     </body>
