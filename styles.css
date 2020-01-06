@@ -174,3 +174,7 @@ p a {
 p a:focus {
     color: white;
 }
+
+.video {
+    margin-bottom: 5vh;
+}
